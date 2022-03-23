@@ -14,7 +14,7 @@ const ReceiveMsg = () => {
   }
   return (
     <>
-      <h1>Receiving MQTT mesasge</h1>
+      <h1>Receiving MQTT mesasges</h1>
       <form onSubmit={submitSubscriptionTopic}>
         <label htmlFor="subscriptionTopicInput">Subscription Topic Name</label>
         <br />
@@ -84,6 +84,14 @@ const SendMsg = () => {
         <br />
         <input type="submit" value="Submit"></input>
       </form>
+      <h2>Preset</h2>
+      <h3>문제어</h3>
+      <button>문열기</button>
+      <button>문잠금</button>
+      <button>명령3</button>
+      <button>명령4</button>
+      <button>명령5</button>
+      <button>명령6</button>
     </>
   )
 }

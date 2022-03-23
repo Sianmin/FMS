@@ -1,3 +1,3 @@
 # FMS
 
-experiment FMS featues.
+experiment FMS features.
